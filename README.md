@@ -28,8 +28,8 @@ cp -R NoThanks/skills/safe-unsubscribe ~/.bob/skills/
 
 ## Connect your mail
 
-NoThanks requires a connected mail MCP server. Add and authenticate a Gmail or Outlook MCP
-connection in Codex, Claude Code, or Bob Shell before using the skill.
+NoThanks does not include a mail connection. Before using the skill, install and authenticate
+your mail provider's MCP server in the agent you use: Codex, Claude Code, or Bob Shell.
 
 Currently supported:
 
