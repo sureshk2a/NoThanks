@@ -1,0 +1,909 @@
+{
+ "now": "2026-10-25T12:00:00+00:00",
+ "messages": [
+  {
+   "headers": {
+    "From": "Shopping Site <deals@shopping.example>",
+    "Subject": "Weekend sale #1",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Fri, 23 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.shopping.example/u/8f3a9c1d2b7e4f60>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <deals@shopping.example>",
+    "Subject": "Weekend sale #2",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sat, 17 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.shopping.example/u/8f3a9c1d2b7e4f60>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <deals@shopping.example>",
+    "Subject": "Weekend sale #3",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sun, 11 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.shopping.example/u/8f3a9c1d2b7e4f60>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <deals@shopping.example>",
+    "Subject": "Weekend sale #4",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Mon, 05 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.shopping.example/u/8f3a9c1d2b7e4f60>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <deals@shopping.example>",
+    "Subject": "Weekend sale #5",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Tue, 29 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.shopping.example/u/8f3a9c1d2b7e4f60>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <deals@shopping.example>",
+    "Subject": "Weekend sale #6",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Wed, 23 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.shopping.example/u/8f3a9c1d2b7e4f60>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <deals@shopping.example>",
+    "Subject": "Weekend sale #7",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Thu, 17 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.shopping.example/u/8f3a9c1d2b7e4f60>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <deals@shopping.example>",
+    "Subject": "Weekend sale #8",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Fri, 11 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.shopping.example/u/8f3a9c1d2b7e4f60>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <deals@shopping.example>",
+    "Subject": "Weekend sale #9",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sat, 05 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.shopping.example/u/8f3a9c1d2b7e4f60>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <deals@shopping.example>",
+    "Subject": "Weekend sale #10",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sun, 30 Aug 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.shopping.example/u/8f3a9c1d2b7e4f60>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <deals@shopping.example>",
+    "Subject": "Weekend sale #11",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Mon, 24 Aug 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.shopping.example/u/8f3a9c1d2b7e4f60>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <deals@shopping.example>",
+    "Subject": "Weekend sale #12",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Tue, 18 Aug 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.shopping.example/u/8f3a9c1d2b7e4f60>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Airline Deals <fares@airline.example>",
+    "Subject": "Fare alert #1",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Fri, 23 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.airline.example/u/aa11bb22cc33dd44>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": true
+  },
+  {
+   "headers": {
+    "From": "Airline Deals <fares@airline.example>",
+    "Subject": "Fare alert #2",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sat, 17 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.airline.example/u/aa11bb22cc33dd44>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": true
+  },
+  {
+   "headers": {
+    "From": "Airline Deals <fares@airline.example>",
+    "Subject": "Fare alert #3",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sun, 11 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.airline.example/u/aa11bb22cc33dd44>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": true
+  },
+  {
+   "headers": {
+    "From": "Airline Deals <fares@airline.example>",
+    "Subject": "Fare alert #4",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Mon, 05 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.airline.example/u/aa11bb22cc33dd44>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Airline Deals <fares@airline.example>",
+    "Subject": "Fare alert #5",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Tue, 29 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.airline.example/u/aa11bb22cc33dd44>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": true
+  },
+  {
+   "headers": {
+    "From": "Airline Deals <fares@airline.example>",
+    "Subject": "Fare alert #6",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Wed, 23 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.airline.example/u/aa11bb22cc33dd44>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": true
+  },
+  {
+   "headers": {
+    "From": "Airline Deals <fares@airline.example>",
+    "Subject": "Fare alert #7",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Thu, 17 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.airline.example/u/aa11bb22cc33dd44>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": true
+  },
+  {
+   "headers": {
+    "From": "Airline Deals <fares@airline.example>",
+    "Subject": "Fare alert #8",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Fri, 11 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.airline.example/u/aa11bb22cc33dd44>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Unknown Offers <win@unknown-offers.example>",
+    "Subject": "You won a prize #1",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Fri, 23 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<http://track.unknown-offers.example/out?id=991823>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Unknown Offers <win@unknown-offers.example>",
+    "Subject": "You won a prize #2",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Sat, 17 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<http://track.unknown-offers.example/out?id=991823>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Unknown Offers <win@unknown-offers.example>",
+    "Subject": "You won a prize #3",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Sun, 11 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<http://track.unknown-offers.example/out?id=991823>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Unknown Offers <win@unknown-offers.example>",
+    "Subject": "You won a prize #4",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Mon, 05 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<http://track.unknown-offers.example/out?id=991823>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Unknown Offers <win@unknown-offers.example>",
+    "Subject": "You won a prize #5",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Tue, 29 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<http://track.unknown-offers.example/out?id=991823>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Unknown Offers <win@unknown-offers.example>",
+    "Subject": "You won a prize #6",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Wed, 23 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<http://track.unknown-offers.example/out?id=991823>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Unknown Offers <win@unknown-offers.example>",
+    "Subject": "You won a prize #7",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Thu, 17 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<http://track.unknown-offers.example/out?id=991823>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Unknown Offers <win@unknown-offers.example>",
+    "Subject": "You won a prize #8",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Fri, 11 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<http://track.unknown-offers.example/out?id=991823>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Unknown Offers <win@unknown-offers.example>",
+    "Subject": "You won a prize #9",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Sat, 05 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<http://track.unknown-offers.example/out?id=991823>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Unknown Offers <win@unknown-offers.example>",
+    "Subject": "You won a prize #10",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Sun, 30 Aug 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<http://track.unknown-offers.example/out?id=991823>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Local Club <list@localclub.example>",
+    "Subject": "Club news #1",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Fri, 23 Oct 2026 12:00:00 +0000",
+    "List-Id": "<club.localclub.example>",
+    "List-Unsubscribe": "<mailto:list-leave@localclub.example?subject=unsubscribe>"
+   },
+   "read": true
+  },
+  {
+   "headers": {
+    "From": "Local Club <list@localclub.example>",
+    "Subject": "Club news #2",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sat, 03 Oct 2026 12:00:00 +0000",
+    "List-Id": "<club.localclub.example>",
+    "List-Unsubscribe": "<mailto:list-leave@localclub.example?subject=unsubscribe>"
+   },
+   "read": true
+  },
+  {
+   "headers": {
+    "From": "Local Club <list@localclub.example>",
+    "Subject": "Club news #3",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sun, 13 Sep 2026 12:00:00 +0000",
+    "List-Id": "<club.localclub.example>",
+    "List-Unsubscribe": "<mailto:list-leave@localclub.example?subject=unsubscribe>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Local Club <list@localclub.example>",
+    "Subject": "Club news #4",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Mon, 24 Aug 2026 12:00:00 +0000",
+    "List-Id": "<club.localclub.example>",
+    "List-Unsubscribe": "<mailto:list-leave@localclub.example?subject=unsubscribe>"
+   },
+   "read": true
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <receipts@store.example>",
+    "Subject": "Your receipt and 20% off your next order #1",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Fri, 23 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.store.example/u/1234567890abcdef>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <receipts@store.example>",
+    "Subject": "Your receipt and 20% off your next order #2",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sat, 17 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.store.example/u/1234567890abcdef>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <receipts@store.example>",
+    "Subject": "Your receipt and 20% off your next order #3",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sun, 11 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.store.example/u/1234567890abcdef>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <receipts@store.example>",
+    "Subject": "Your receipt and 20% off your next order #4",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Mon, 05 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.store.example/u/1234567890abcdef>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Shopping Site <receipts@store.example>",
+    "Subject": "Your receipt and 20% off your next order #5",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Tue, 29 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.store.example/u/1234567890abcdef>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Example Bank <alerts@bank.example>",
+    "Subject": "Security alert: new sign-in #1",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Fri, 23 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<mailto:stop@bank.example>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Example Bank <alerts@bank.example>",
+    "Subject": "Security alert: new sign-in #2",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sat, 17 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<mailto:stop@bank.example>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Example Bank <alerts@bank.example>",
+    "Subject": "Security alert: new sign-in #3",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sun, 11 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<mailto:stop@bank.example>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Example Bank <alerts@bank.example>",
+    "Subject": "Security alert: new sign-in #4",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Mon, 05 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<mailto:stop@bank.example>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Example Bank <alerts@bank.example>",
+    "Subject": "Security alert: new sign-in #5",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Tue, 29 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<mailto:stop@bank.example>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "PayPal support paypal.com <help@random-mail.example>",
+    "Subject": "Verify your account #1",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Fri, 23 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://random-mail.example/u/0a1b2c3d4e5f6a7b>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "PayPal support paypal.com <help@random-mail.example>",
+    "Subject": "Verify your account #2",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Sat, 17 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://random-mail.example/u/0a1b2c3d4e5f6a7b>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "PayPal support paypal.com <help@random-mail.example>",
+    "Subject": "Verify your account #3",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Sun, 11 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://random-mail.example/u/0a1b2c3d4e5f6a7b>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "PayPal support paypal.com <help@random-mail.example>",
+    "Subject": "Verify your account #4",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Mon, 05 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://random-mail.example/u/0a1b2c3d4e5f6a7b>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "PayPal support paypal.com <help@random-mail.example>",
+    "Subject": "Verify your account #5",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Tue, 29 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://random-mail.example/u/0a1b2c3d4e5f6a7b>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "PayPal support paypal.com <help@random-mail.example>",
+    "Subject": "Verify your account #6",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Wed, 23 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://random-mail.example/u/0a1b2c3d4e5f6a7b>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Daily Pub <news@pub.example>",
+    "Subject": "Daily digest #1",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Fri, 23 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.pub.example/u/f00dfeed12345678>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Daily Pub <news@pub.example>",
+    "Subject": "Daily digest #2",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sat, 17 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.pub.example/u/f00dfeed12345678>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Daily Pub <news@pub.example>",
+    "Subject": "Daily digest #3",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sun, 11 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.pub.example/u/f00dfeed12345678>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": true
+  },
+  {
+   "headers": {
+    "From": "Daily Pub <news@pub.example>",
+    "Subject": "Daily digest #4",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Mon, 05 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.pub.example/u/f00dfeed12345678>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Daily Pub <news@pub.example>",
+    "Subject": "Daily digest #5",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Tue, 29 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.pub.example/u/f00dfeed12345678>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Daily Pub <news@pub.example>",
+    "Subject": "Daily digest #6",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Wed, 23 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.pub.example/u/f00dfeed12345678>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": true
+  },
+  {
+   "headers": {
+    "From": "Daily Pub <news@pub.example>",
+    "Subject": "Daily digest #7",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Thu, 17 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.pub.example/u/f00dfeed12345678>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Daily Pub <news@pub.example>",
+    "Subject": "Daily digest #8",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Fri, 11 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.pub.example/u/f00dfeed12345678>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Daily Pub <news@pub.example>",
+    "Subject": "Daily digest #9",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sat, 05 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.pub.example/u/f00dfeed12345678>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": true
+  },
+  {
+   "headers": {
+    "From": "Daily Pub Offers <offers@mail.pub.example>",
+    "Subject": "Subscriber offer #1",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Fri, 23 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.pub.example/u/beefcafe87654321>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Daily Pub Offers <offers@mail.pub.example>",
+    "Subject": "Subscriber offer #2",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sat, 17 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.pub.example/u/beefcafe87654321>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Daily Pub Offers <offers@mail.pub.example>",
+    "Subject": "Subscriber offer #3",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sun, 11 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.pub.example/u/beefcafe87654321>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Daily Pub Offers <offers@mail.pub.example>",
+    "Subject": "Subscriber offer #4",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Mon, 05 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.pub.example/u/beefcafe87654321>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Daily Pub Offers <offers@mail.pub.example>",
+    "Subject": "Subscriber offer #5",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Tue, 29 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.pub.example/u/beefcafe87654321>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Daily Pub Offers <offers@mail.pub.example>",
+    "Subject": "Subscriber offer #6",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Wed, 23 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://mail.pub.example/u/beefcafe87654321>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Gadget Hub <promo@gadgets.example>",
+    "Subject": "New gadgets #1",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Fri, 23 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://gadgets.example/preferences?user=42>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Gadget Hub <promo@gadgets.example>",
+    "Subject": "New gadgets #2",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sat, 17 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://gadgets.example/preferences?user=42>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Gadget Hub <promo@gadgets.example>",
+    "Subject": "New gadgets #3",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sun, 11 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://gadgets.example/preferences?user=42>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Gadget Hub <promo@gadgets.example>",
+    "Subject": "New gadgets #4",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Mon, 05 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://gadgets.example/preferences?user=42>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Gadget Hub <promo@gadgets.example>",
+    "Subject": "New gadgets #5",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Tue, 29 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://gadgets.example/preferences?user=42>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Gadget Hub <promo@gadgets.example>",
+    "Subject": "New gadgets #6",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Wed, 23 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://gadgets.example/preferences?user=42>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Gadget Hub <promo@gadgets.example>",
+    "Subject": "New gadgets #7",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Thu, 17 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<https://gadgets.example/preferences?user=42>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Blast Co <blast@nounsub.example>",
+    "Subject": "Big news #1",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Fri, 23 Oct 2026 12:00:00 +0000",
+    "Precedence": "bulk"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Blast Co <blast@nounsub.example>",
+    "Subject": "Big news #2",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sat, 17 Oct 2026 12:00:00 +0000",
+    "Precedence": "bulk"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Blast Co <blast@nounsub.example>",
+    "Subject": "Big news #3",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Sun, 11 Oct 2026 12:00:00 +0000",
+    "Precedence": "bulk"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Blast Co <blast@nounsub.example>",
+    "Subject": "Big news #4",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Mon, 05 Oct 2026 12:00:00 +0000",
+    "Precedence": "bulk"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Blast Co <blast@nounsub.example>",
+    "Subject": "Big news #5",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Tue, 29 Sep 2026 12:00:00 +0000",
+    "Precedence": "bulk"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Blast Co <blast@nounsub.example>",
+    "Subject": "Big news #6",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Wed, 23 Sep 2026 12:00:00 +0000",
+    "Precedence": "bulk"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Blast Co <blast@nounsub.example>",
+    "Subject": "Big news #7",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Thu, 17 Sep 2026 12:00:00 +0000",
+    "Precedence": "bulk"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Blast Co <blast@nounsub.example>",
+    "Subject": "Big news #8",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x",
+    "Date": "Fri, 11 Sep 2026 12:00:00 +0000",
+    "Precedence": "bulk"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Odd Sender <hello@oddsender.example>",
+    "Subject": "Hello friend #1",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Fri, 23 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<javascript:alert(1)>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Odd Sender <hello@oddsender.example>",
+    "Subject": "Hello friend #2",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Sat, 17 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<javascript:alert(1)>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Odd Sender <hello@oddsender.example>",
+    "Subject": "Hello friend #3",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Sun, 11 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<javascript:alert(1)>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Odd Sender <hello@oddsender.example>",
+    "Subject": "Hello friend #4",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Mon, 05 Oct 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<javascript:alert(1)>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Odd Sender <hello@oddsender.example>",
+    "Subject": "Hello friend #5",
+    "Authentication-Results": "mx.example; spf=fail smtp.mailfrom=x; dkim=fail header.d=x; dmarc=fail header.from=x",
+    "Date": "Tue, 29 Sep 2026 12:00:00 +0000",
+    "List-Unsubscribe": "<javascript:alert(1)>"
+   },
+   "read": false
+  },
+  {
+   "headers": {
+    "From": "Ancient <old@ancient.example>",
+    "Subject": "Old",
+    "Date": "Mon, 01 Jan 2024 10:00:00 +0000",
+    "Precedence": "bulk",
+    "Authentication-Results": "mx.example; spf=pass smtp.mailfrom=x; dkim=pass header.d=x; dmarc=pass header.from=x"
+   },
+   "read": false
+  }
+ ]
+}
