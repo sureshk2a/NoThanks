@@ -8,19 +8,31 @@ NoThanks is an agent skill backed by deterministic Python scripts. It scans emai
 SCAN → RECOMMEND → APPROVE → DRY RUN → EXECUTE → VERIFY
 ```
 
-## Install for Bob
+## Install
 
 ```bash
 git clone https://github.com/sureshk2a/NoThanks.git
+```
+
+Choose your agent:
+
+```bash
+# Codex
+mkdir -p ~/.codex/skills
+cp -R NoThanks/skills/safe-unsubscribe ~/.codex/skills/
+
+# Claude Code
+mkdir -p ~/.claude/skills
+cp -R NoThanks/skills/safe-unsubscribe ~/.claude/skills/
+
+# Bob Shell
 mkdir -p ~/.bob/skills
 cp -R NoThanks/skills/safe-unsubscribe ~/.bob/skills/
 ```
 
-Requirements: Bob Shell, Python 3.9+, and either a configured Gmail/Outlook MCP connection or an exported `.eml`/`.mbox` mailbox.
-
 ## Use
 
-Start Bob in any workspace and ask:
+Start your agent in any workspace and ask:
 
 > Use the safe-unsubscribe skill. Scan my email from the last 90 days and show recommendations only. Do not make changes.
 
@@ -29,7 +41,7 @@ Nothing is changed during scanning. To continue, tell Bob exactly which recommen
 For a local mailbox export:
 
 ```bash
-python3 ~/.bob/skills/safe-unsubscribe/scripts/scan_mailbox.py \
+python3 NoThanks/skills/safe-unsubscribe/scripts/scan_mailbox.py \
   --source ~/Mail/export.mbox --out-dir .nothanks/scan --table
 ```
 
