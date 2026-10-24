@@ -30,9 +30,11 @@ cp -R NoThanks/skills/safe-unsubscribe ~/.bob/skills/
 
 Start your agent in any workspace and ask:
 
-> Use the safe-unsubscribe skill. Scan my email from the last 90 days and show recommendations only. Do not make changes.
+> Clean up my inbox with the safe-unsubscribe skill. Find unwanted newsletters, let me review the exact plan, then unsubscribe from everything I approve.
 
-Nothing is changed during scanning. To continue, tell your agent exactly which recommendations to include or exclude. NoThanks will show and validate a dry run before asking for final approval.
+NoThanks scans first, lets you include or exclude senders, validates a dry run, and then performs only the actions you explicitly approve.
+
+> **Current status:** scanning, planning, validation, and dry-run behavior are tested. Live unsubscribe execution still needs end-to-end testing with real providers.
 
 ## Safety
 
