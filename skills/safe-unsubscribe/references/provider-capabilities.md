@@ -1,7 +1,8 @@
-# Provider capabilities
+# Mail MCP capabilities
 
-The portable skill needs **headers only**. `scan_mailbox.py` accepts these shapes in a `.json`
-file (a list, or `{"messages": [...]}`):
+The host must have an authenticated Gmail or Microsoft Outlook MCP connection. The skill needs
+**headers only**. Save MCP results to a `.json` file as a list or `{"messages": [...]}` before
+running `scan_mailbox.py`.
 
 ## Generic
 
@@ -32,20 +33,15 @@ folder, not delete); `Mail.Send` for mailto unsubscribes.
 Note: `internetMessageHeaders` is only returned when explicitly selected and can be heavy; page
 through results.
 
-## Local files
-
-- Directory of `.eml` files, or an `.mbox` file. Read state is taken from the `Status:` header
-  if present, otherwise engagement is `unknown`.
-
 ## Capability matrix
 
-| Capability | Gmail | Outlook | Local files |
-|---|---|---|---|
-| Header scan | yes | yes | yes |
-| Read/unread engagement | yes (`UNREAD` label) | yes (`isRead`) | only with `Status:` |
-| One-click POST | yes (executor) | yes (executor) | yes (executor) |
-| Send mailto | host tool / `gmail.send` | host tool / `Mail.Send` | no |
-| Create rule | filters API | inbox rules API | no |
-| Open/click tracking | not available | not available | no |
+| Capability | Gmail | Outlook |
+|---|---|---|
+| Header scan | yes | yes |
+| Read/unread engagement | yes (`UNREAD` label) | yes (`isRead`) |
+| One-click POST | yes (executor) | yes (executor) |
+| Send mailto | host tool / `gmail.send` | host tool / `Mail.Send` |
+| Create rule | filters API | inbox rules API |
+| Open/click tracking | not available | not available |
 
 Engagement is read-state only; open-tracking pixels are not used and are never loaded.

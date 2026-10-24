@@ -1,8 +1,0 @@
-{
-  "name": "nothanks",
-  "version": "0.1.0",
-  "description": "Safe Unsubscribe: review newsletter clutter and unsubscribe from approved senders without blindly trusting unsubscribe links.",
-  "license": "MIT",
-  "skills": ["../skills/safe-unsubscribe"],
-  "mcp": "mcp.json"
-}

@@ -1,4 +1,0 @@
-{
-  "_comment": "Version 3 placeholder. No MCP server is implemented yet; planned tools: mail.search_candidates, mail.get_headers, mail.get_sender_stats, unsubscribe.validate, unsubscribe.execute, mail.create_rule, unsubscribe.verify.",
-  "mcpServers": {}
-}

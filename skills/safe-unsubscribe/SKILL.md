@@ -31,12 +31,12 @@ current directory (add it to `.gitignore` if in a repo).
 
 ## 1. SCAN (read-only)
 
-Get message **headers only** for roughly the last 90 days, using whatever mail tool the host
-provides (Gmail/Outlook connector, MCP server, or an exported `.eml`/`.mbox`). Needed per message:
+Require an authenticated Gmail or Microsoft Outlook MCP connection. Get message **headers only**
+for roughly the last 90 days using the connected mail tools. Needed per message:
 `From`, `Subject`, `Date`, `List-Id`, `List-Unsubscribe`, `List-Unsubscribe-Post`, `Precedence`,
 `Authentication-Results`, plus read/unread state if available. Write them to
 `.nothanks/messages.json` as `[{"headers": {...}, "read": true|false|null}]`; Gmail
-`format=metadata` and Microsoft Graph message objects are also accepted as-is
+`format=metadata` and Microsoft Graph message objects are accepted as-is
 (see `references/provider-capabilities.md`). Never request message bodies.
 
 ```bash

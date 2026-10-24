@@ -26,6 +26,16 @@ mkdir -p ~/.bob/skills
 cp -R NoThanks/skills/safe-unsubscribe ~/.bob/skills/
 ```
 
+## Connect your mail
+
+NoThanks requires a connected mail MCP server. Add and authenticate a Gmail or Outlook MCP
+connection in Codex, Claude Code, or Bob Shell before using the skill.
+
+Currently supported:
+
+- Gmail
+- Microsoft Outlook
+
 ## Use
 
 Start your agent in any workspace and ask:
@@ -54,7 +64,7 @@ NoThanks also supports review-first use when you want to include or exclude send
 - Keeps unsubscribe targets out of model-visible plans.
 - Excludes security, financial, medical, government, purchase, and delivery mail.
 - Rejects private-network, redirecting, malformed, and suspicious links.
-- Never deletes mail, submits forms, or reports spam automatically.
+- Never deletes mail, fills web forms, or reports spam automatically.
 - Stores working data locally in `.nothanks/`, which is ignored by Git.
 
 See [SECURITY.md](SECURITY.md) for the threat model.
