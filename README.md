@@ -48,8 +48,6 @@ The prompt is also available in [prompt.md](prompt.md).
 
 NoThanks also supports review-first use when you want to include or exclude senders before execution.
 
-> **Current status:** scanning, planning, validation, and dry-run behavior are tested. Live unsubscribe execution still needs end-to-end testing with real providers.
-
 ## Safety
 
 - Reads headers, not message bodies.
