@@ -1,12 +1,12 @@
 ---
 name: safe-unsubscribe
-description: Review recurring newsletter and promotional email, explain which senders are worth removing, and unsubscribe from approved senders safely in one batch without blindly trusting unsubscribe links. Use when the user asks to clean up their inbox, find newsletters they do not need, unsubscribe from promotions, or check whether an unsubscribe link is safe. Works read-only until the user explicitly approves a plan.
+description: Review recurring newsletter and promotional email, explain which senders are worth removing, and unsubscribe safely in one batch without blindly trusting unsubscribe links. Use when the user asks to clean up their inbox, find newsletters they do not need, unsubscribe from promotions, or check whether an unsubscribe link is safe. Supports review-first and explicitly pre-authorized execution.
 ---
 
 # Safe Unsubscribe (NoThanks)
 
-Workflow: **SCAN → RECOMMEND → USER APPROVES → EXECUTE → VERIFY**.
-Never merge these stages into one step. Scanning and recommending are read-only.
+Workflow: **SCAN → RECOMMEND → AUTHORIZE → EXECUTE → VERIFY**.
+Scanning and recommending are read-only. Authorization may be given before or after scanning.
 
 You (the model) interpret and recommend. The scripts in `scripts/` validate and execute.
 Paths below are relative to this skill directory. Working files go in `.nothanks/` in the user's
@@ -14,8 +14,11 @@ current directory (add it to `.gitignore` if in a repo).
 
 ## Hard rules
 
-1. No external action (HTTP request, sent email, mailbox rule, opened page) without an explicit
-   user approval of the exact plan shown to them in this conversation.
+1. No external action (HTTP request, sent email, mailbox rule, opened page) unless the user
+   explicitly requests execution. The request may authorize a named list or a bounded selection
+   policy such as "exactly two low-risk verified one-click senders" or "all safe one-click
+   recommendations without asking again". Do not require a second confirmation when that scope
+   is unambiguous. A generic request to scan, review, or clean up is not execution authorization.
 2. Never open, fetch, click, or print an unsubscribe URL yourself. Only `execute_plan.py` touches
    them, and only for approved plans. `candidates.json` deliberately contains no URLs.
 3. Never put URLs or addresses into the plan. Refer to candidates by `candidate_id` only.
@@ -56,11 +59,18 @@ provides a heuristic default recommendation; refine it where context warrants:
   To change a recommendation, edit that candidate's `category`/`recommended_action`/`reason` in
   `candidates.json` before building the plan (the plan binds to the file's hash).
 
-Show the user a table: Sender | Messages (90 days) | Engagement | Recommendation | Method | Why.
-Method labels in plain words: verified one-click, mailto email, preference page, none, unsafe link.
-Say clearly that **nothing has been changed yet**, and ask which to approve or exclude.
+In review-first mode, show the user a table: Sender | Messages (90 days) | Engagement |
+Recommendation | Method | Why. Method labels in plain words: verified one-click, mailto email,
+preference page, none, unsafe link. Say clearly that **nothing has been changed yet**, and ask
+which to approve or exclude.
 
-## 3. USER APPROVES
+In pre-authorized mode, select only candidates within the user's stated scope. Unless the user
+explicitly authorizes other methods, autonomous execution is limited to candidates that are all
+of: `recommended_action=unsubscribe`, `method=rfc8058-post`, `risk=low`, no exclusions, and
+confidence at least 0.6. Respect any requested action limit exactly. Do not substitute a candidate
+that fails validation.
+
+## 3. AUTHORIZE
 
 Build the plan from the user's words ("everything recommended except Airline Deals"):
 
@@ -69,18 +79,22 @@ python3 scripts/build_plan.py --scan .nothanks/scan/candidates.json --recommende
 python3 scripts/validate_plan.py --plan .nothanks/plan.json --scan .nothanks/scan/candidates.json
 ```
 
-Restate the exact action list (sender, action, method) and, for `mailto`, the preview from the dry
-run (step 4). Ask for explicit confirmation. Only after a clear "yes" to *this* list:
+In review-first mode, restate the exact action list (sender, action, method) and ask for explicit
+confirmation. For `mailto`, also show the exact email preview before sending.
+
+In pre-authorized mode, verify that every action matches the user's stated count, method, and
+safety criteria. The original request is the authorization; do not ask again. After either form
+of authorization:
 
 ```bash
 python3 scripts/build_plan.py --mark-approved .nothanks/plan.json
 ```
 
-If the user changes anything afterwards, rebuild and ask again. Vague replies are not approval.
+If the scope changes, rebuild the plan. Never silently expand it.
 
 ## 4. EXECUTE
 
-Always dry-run first and show the output:
+Review-first mode uses a dry run before real execution:
 
 ```bash
 python3 scripts/execute_plan.py --plan .nothanks/plan.json --scan .nothanks/scan/candidates.json \
@@ -92,6 +106,9 @@ Then, if approved:
 ```bash
 python3 scripts/execute_plan.py ... --execute            # add --open-pages to open preference pages
 ```
+
+In explicitly pre-authorized mode, a dry run is optional. After validation and
+`--mark-approved`, execute immediately with `--execute` unless the user requested a dry run.
 
 Result statuses and what you must do:
 

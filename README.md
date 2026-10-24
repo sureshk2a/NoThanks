@@ -2,10 +2,10 @@
 
 Safely find newsletters and promotional email you no longer want.
 
-NoThanks is an agent skill backed by deterministic Python scripts. It scans email headers, explains its recommendations, waits for approval, dry-runs the exact plan, and only then performs approved actions.
+NoThanks is an agent skill backed by deterministic Python scripts. It scans email headers, selects safe unsubscribe candidates, validates the plan, and performs the actions you authorize.
 
 ```text
-SCAN → RECOMMEND → APPROVE → DRY RUN → EXECUTE → VERIFY
+SCAN → RECOMMEND → AUTHORIZE → EXECUTE → VERIFY
 ```
 
 ## Install
@@ -32,7 +32,11 @@ Start your agent in any workspace and ask:
 
 > Clean up my inbox with the safe-unsubscribe skill. Find unwanted newsletters, let me review the exact plan, then unsubscribe from everything I approve.
 
-NoThanks scans first, lets you include or exclude senders, validates a dry run, and then performs only the actions you explicitly approve.
+For unattended execution with no follow-up prompt:
+
+> Use the safe-unsubscribe skill. Without asking again, unsubscribe exactly two low-risk promotional senders that have verified RFC 8058 one-click support. Do not add or substitute senders, and report each result.
+
+NoThanks also supports review-first use when you want to include or exclude senders before execution.
 
 > **Current status:** scanning, planning, validation, and dry-run behavior are tested. Live unsubscribe execution still needs end-to-end testing with real providers.
 

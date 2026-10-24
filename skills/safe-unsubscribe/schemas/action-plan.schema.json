@@ -11,7 +11,7 @@
     "scan_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
     "approved": {
       "type": "boolean",
-      "description": "Set true only after the user has explicitly approved this exact plan."
+      "description": "Set true only when the plan matches an explicit named-list or bounded-policy execution authorization from the user."
     },
     "approved_at": { "type": ["string", "null"] },
     "actions": {
