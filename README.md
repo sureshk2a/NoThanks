@@ -32,9 +32,19 @@ Start your agent in any workspace and ask:
 
 > Clean up my inbox with the safe-unsubscribe skill. Find unwanted newsletters, let me review the exact plan, then unsubscribe from everything I approve.
 
-For unattended execution with no follow-up prompt:
+To clean up every safe unwanted subscription without a follow-up approval, paste this prompt:
 
-> Use the safe-unsubscribe skill. Without asking again, unsubscribe exactly two low-risk promotional senders that have verified RFC 8058 one-click support. Do not add or substitute senders, and report each result.
+```text
+Use the safe-unsubscribe skill to clean up my connected email account.
+
+Scan my recent email, identify unwanted newsletters and promotional subscriptions, and unsubscribe from every safe candidate. This request explicitly authorizes immediate execution without asking me for confirmation or showing a dry run.
+
+Only execute validated unsubscribe actions. Exclude personal, transactional, account, security, financial, medical, government, billing, purchase, delivery, reservation, and suspicious email. Never contact unsafe links, delete messages, report spam, or create mailbox rules.
+
+Use verified RFC 8058 one-click unsubscribe wherever available. Process all qualifying unwanted subscriptions, then report which senders were unsubscribed, which failed, and which were skipped with the reason.
+```
+
+The prompt is also available in [prompt.md](prompt.md).
 
 NoThanks also supports review-first use when you want to include or exclude senders before execution.
 
