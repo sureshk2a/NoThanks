@@ -10,22 +10,18 @@ SCAN → RECOMMEND → APPROVE → DRY RUN → EXECUTE → VERIFY
 
 ## Install
 
+Codex and Claude Code:
+
 ```bash
-git clone https://github.com/sureshk2a/NoThanks.git
+npx skills@latest add sureshk2a/NoThanks \
+  --skill safe-unsubscribe --global \
+  --agent codex claude-code --yes
 ```
 
-Choose your agent:
+Bob Shell:
 
 ```bash
-# Codex
-mkdir -p ~/.codex/skills
-cp -R NoThanks/skills/safe-unsubscribe ~/.codex/skills/
-
-# Claude Code
-mkdir -p ~/.claude/skills
-cp -R NoThanks/skills/safe-unsubscribe ~/.claude/skills/
-
-# Bob Shell
+git clone https://github.com/sureshk2a/NoThanks.git
 mkdir -p ~/.bob/skills
 cp -R NoThanks/skills/safe-unsubscribe ~/.bob/skills/
 ```
@@ -36,14 +32,7 @@ Start your agent in any workspace and ask:
 
 > Use the safe-unsubscribe skill. Scan my email from the last 90 days and show recommendations only. Do not make changes.
 
-Nothing is changed during scanning. To continue, tell Bob exactly which recommendations to include or exclude. NoThanks will show and validate a dry run before asking for final approval.
-
-For a local mailbox export:
-
-```bash
-python3 NoThanks/skills/safe-unsubscribe/scripts/scan_mailbox.py \
-  --source ~/Mail/export.mbox --out-dir .nothanks/scan --table
-```
+Nothing is changed during scanning. To continue, tell your agent exactly which recommendations to include or exclude. NoThanks will show and validate a dry run before asking for final approval.
 
 ## Safety
 
